@@ -1,4 +1,4 @@
-describe('Javascript Workshop - Challenges Set 2', function() {
+describe('Javascript Workshop - Challenges Set 3', function() {
     it('01. Write a unary function named `identity` which accepts a parameter '
     + 'and returns that parameter.', function() {
         expect(identity(12)).toBe(12);
