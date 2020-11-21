@@ -4,13 +4,13 @@ describe('Arrays and Objects', () => {
   it('Declare a function named "isNumberInArrayLoop".', () => {
     assert.typeOf(isNumberInArrayLoop, 'function');
     assert.isTrue(isNumberInArrayLoop([1, 2, 3], 3));
-    assert.isTrue(isNumberInArrayLoop([1, 2, 3], 4));
+    assert.isFalse(isNumberInArrayLoop([1, 2, 3], 4));
   });
 
   it('Declare a function named "isNumberInArray".', () => {
     assert.typeOf(isNumberInArray, 'function');
     assert.isTrue(isNumberInArray([1, 2, 3], 3));
-    assert.isTrue(isNumberInArray([1, 2, 3], 4));
+    assert.isFalse(isNumberInArray([1, 2, 3], 4));
   });
 
   it('Declare a variable named "me".', () => {
